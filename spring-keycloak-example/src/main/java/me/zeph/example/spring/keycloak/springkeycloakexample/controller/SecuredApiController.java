@@ -1,4 +1,4 @@
-package me.zeph.example.spring.keycloak.springkeycloakexample;
+package me.zeph.example.spring.keycloak.springkeycloakexample.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

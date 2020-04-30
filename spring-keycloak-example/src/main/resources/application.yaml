@@ -1,0 +1,5 @@
+security:
+  oauth2:
+    resource:
+      jwk:
+        key-set-uri: http://localhost:8080/auth/realms/KEYCLOAK_REALM_EXAMPLE/protocol/openid-connect/certs

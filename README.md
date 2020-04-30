@@ -16,8 +16,16 @@ Web Origins *
 
 Realm setting page can set User registration etc.
 
-Can support internationalization
+Can support internationalization on reaml setting
 
+Theme https://www.keycloak.org/docs/latest/server_development/#_themes
+
+Keycloak cluster??????
+https://www.keycloak.org/2019/04/keycloak-cluster-setup.html
+
+https://hub.helm.sh/charts/codecentric/keycloak
+
+Spring
 
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker
