@@ -16,8 +16,12 @@ Web Origins *
 
 Realm setting page can set User registration etc.
 
+Can support internationalization
+
 
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker
+
 2.https://github.com/manfredsteyer/angular-oauth2-oidc/issues/484
+
 3.https://stackoverflow.com/questions/45352880/keycloak-invalid-parameter-redirect-uri?rq=1
