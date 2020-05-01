@@ -15,5 +15,11 @@ DefaultAccessTokenConverter.extractAuthentication
 
 https://www.oauth.com/oauth2-servers/access-tokens/
 
-#Oauth2 Application Properties
+# Oauth2 Application Properties
 https://docs.spring.io/spring-security-oauth2-boot/docs/current/reference/html/common-application-properties.html
+
+# The Authorization Process of keycloak to protect a resource
+
+https://www.keycloak.org/docs/latest/authorization_services/#the-authorization-process
+
+There you can enable any registered client application as a resource server and start managing the resources and scopes you want to protect.

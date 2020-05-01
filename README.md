@@ -62,6 +62,12 @@ There are three different roles: realm roles, client roles and composite role
 
 https://www.keycloak.org/docs/latest/server_admin/index.html#roles
 
+### Different java adapter
+
+https://www.keycloak.org/docs/latest/securing_apps/#java-adapters
+
+https://medium.com/@bcarunmail/securing-rest-api-using-keycloak-and-spring-oauth2-6ddf3a1efcc2
+
 
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker
