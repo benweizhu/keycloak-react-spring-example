@@ -25,7 +25,14 @@ https://www.keycloak.org/2019/04/keycloak-cluster-setup.html
 
 https://hub.helm.sh/charts/codecentric/keycloak
 
-Spring
+### RBAC
+
+https://www.keycloak.org/docs/4.8/authorization_services/#_policy_rbac
+
+
+### authorization-code-grant-type
+
+https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
 
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker

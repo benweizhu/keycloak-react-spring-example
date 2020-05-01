@@ -3,3 +3,6 @@ security:
     resource:
       jwk:
         key-set-uri: http://localhost:8080/auth/realms/KEYCLOAK_REALM_EXAMPLE/protocol/openid-connect/certs
+      id: example
+server:
+  port: 8081
