@@ -39,7 +39,10 @@ https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
 https://lists.jboss.org/pipermail/keycloak-user/2016-April/005731.html
 
 ### Audience(relate to the scope)
+
 For secure the access in the services
+
+Need to create another client to represent the resources server
 
 https://www.keycloak.org/docs/latest/server_admin/index.html#_audience
 
