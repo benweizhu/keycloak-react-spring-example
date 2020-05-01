@@ -69,6 +69,10 @@ https://www.keycloak.org/docs/latest/securing_apps/#java-adapters
 https://medium.com/@bcarunmail/securing-rest-api-using-keycloak-and-spring-oauth2-6ddf3a1efcc2
 
 
+### How to user matadata or roles into the token(Add claim)
+
+https://www.keycloak.org/docs/latest/server_admin/index.html#_protocol-mappers
+
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker
 
