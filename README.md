@@ -44,6 +44,10 @@ For secure the access in the services
 
 Need to create another client to represent the resources server
 
+```
+Clients are trusted browser apps and web services in a realm. These clients can request a login. You can also define client specific roles.
+```
+
 https://www.keycloak.org/docs/latest/server_admin/index.html#_audience
 
 This protocol mapper will check all the clients for which current token(user) has at least one client role available. Then the client ID of each of those clients will be added as an audience automatically. 
