@@ -34,6 +34,20 @@ https://www.keycloak.org/docs/4.8/authorization_services/#_policy_rbac
 
 https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
 
+### keycloak default clients within a realm
+
+https://lists.jboss.org/pipermail/keycloak-user/2016-April/005731.html
+
+### Audience(relate to the scope)
+For secure the access in the services
+
+https://www.keycloak.org/docs/latest/server_admin/index.html#_audience
+
+This protocol mapper will check all the clients for which current token(user) has at least one client role available. Then the client ID of each of those clients will be added as an audience automatically. 
+
+Create a API client, and add role in client, assign the role to user, then the token will contain clientId as the audience.
+
+
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker
 
