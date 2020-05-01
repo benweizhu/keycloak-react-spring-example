@@ -54,6 +54,14 @@ This protocol mapper will check all the clients for which current token(user) ha
 
 Create a API client, and add role in client, assign the role to user, then the token will contain clientId as the audience.
 
+### Roles
+
+Client role been assign to user will automately add client id as audience to the token.
+
+There are three different roles: realm roles, client roles and composite role
+
+https://www.keycloak.org/docs/latest/server_admin/index.html#roles
+
 
 References:
 1.https://www.keycloak.org/getting-started/getting-started-docker
