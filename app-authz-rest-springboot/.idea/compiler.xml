@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="app-authz-rest-springboot" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="app-authz-rest-springboot" target="1.5" />
+      <module name="app-authz-rest-springboot.main" target="11" />
+      <module name="app-authz-rest-springboot.test" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
