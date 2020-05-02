@@ -1,0 +1,8 @@
+{
+  "realm": "spring-security-quickstart",
+  "auth-server-url": "http://localhost:8080/auth",
+  "ssl-required": "none",
+  "resource": "app-authz-spring-security",
+  "bearer-only": "true",
+  "verify-token-audience": "true"
+}

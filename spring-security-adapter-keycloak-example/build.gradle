@@ -13,12 +13,23 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    
+    // https://mvnrepository.com/artifact/org.keycloak/keycloak-spring-security-adapter
+    implementation group: 'org.keycloak', name: 'keycloak-spring-security-adapter', version: '9.0.3'
+
+    // https://mvnrepository.com/artifact/org.keycloak/keycloak-authz-client
+    implementation group: 'org.keycloak', name: 'keycloak-authz-client', version: '9.0.3'
+
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
     testImplementation 'org.springframework.security:spring-security-test'
+    
+    // https://mvnrepository.com/artifact/org.keycloak/keycloak-test-helper
+    testImplementation group: 'org.keycloak', name: 'keycloak-test-helper', version: '9.0.3'
+
 }
 
 test {
