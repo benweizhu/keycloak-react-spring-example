@@ -1,9 +1,0 @@
-security:
-  oauth2:
-    resource:
-      jwk:
-        issuer-uri: http://localhost:8080/auth/realms/KEYCLOAK_REALM_EXAMPLE
-        key-set-uri: http://localhost:8080/auth/realms/KEYCLOAK_REALM_EXAMPLE/protocol/openid-connect/certs
-      id: KEYCLOAK_REALM_API
-server:
-  port: 8081
