@@ -41,7 +41,25 @@ https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
 
 https://lists.jboss.org/pipermail/keycloak-user/2016-April/005731.html
 
-### Audience(relate to the scope)
+### Scope
+
+If you define a client with pulic access type, you will see client scope tab.
+
+There are default client scope email, profile, roles, web-orgins.
+
+Each of them has a protocal mapper, which will will do transform on token and documents.
+
+For example, profile will get the user profile information and put into token in certern format mapping logic.
+
+Roles scope mappper will to realm and applicaiton roles mapping.
+
+You can define scope and role relationship, which can group a set of scope into a role. If user has this role, user will has this scope and protocal mapper.
+
+What is the meaning of scope in oauth2?
+
+https://security.stackexchange.com/questions/17506/what-is-the-benefit-of-the-scope-in-oauth2
+
+### Audience
 
 https://www.keycloak.org/docs/latest/server_admin/index.html#_audience
 
