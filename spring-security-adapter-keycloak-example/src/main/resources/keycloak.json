@@ -4,5 +4,6 @@
   "ssl-required": "none",
   "resource": "KEYCLOAK_REALM_API",
   "bearer-only": "true",
-  "verify-token-audience": "true"
+  "verify-token-audience": "true",
+  "use-resource-role-mappings": false
 }
