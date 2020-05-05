@@ -29,10 +29,6 @@ https://www.keycloak.org/2019/04/keycloak-cluster-setup.html
 
 https://hub.helm.sh/charts/codecentric/keycloak
 
-### Authorization Services(RBAC etc)
-
-https://www.keycloak.org/docs/latest/authorization_services/
-
 ### authorization-code-grant-type
 
 https://developer.okta.com/blog/2018/04/10/oauth-authorization-code-grant-type
